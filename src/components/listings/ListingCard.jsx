@@ -16,7 +16,7 @@ function ListingCard({ data }) {
 
   const shortenedDescription = truncateDescription(data.description[0], 100);
   return (
-    <div className="py-5 px-5 col-span-4 bg-white rounded-md shadow-md border-2 border-[#277ffe] hover:scale-105   text-slate-600">
+    <div className="py-5 px-5 col-span-4 bg-white rounded-md shadow-md border-2 border-[#277ffe] hover:scale-105   text-slate-600 cursor-pointer">
       <p className="text-xl font-semibold text-slate-700 hover:text-white">
         {data.title}
       </p>
